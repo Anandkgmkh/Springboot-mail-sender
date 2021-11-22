@@ -22,7 +22,7 @@ public class SpringMailApplication {
 	public void triggerMail() throws MessagingException {
 
 		service.sendEmailWithAttachment("anandkgmkh@gmail.com",
-				"This is Email Body with Attachment...",
+				"This is Email Body with Attachment.....",
 				"This email has attachment",
 				"C:\\Users\\Anand\\Desktop\\BeawareSpringProperties.PNG");
 
