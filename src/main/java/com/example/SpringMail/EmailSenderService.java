@@ -53,7 +53,7 @@ public class EmailSenderService {
                 fileSystem);
 
         mailSender.send(mimeMessage);
-        System.out.println("Mail Sent....");
+        System.out.println("Mail Sent.....");
 
     }
 }
