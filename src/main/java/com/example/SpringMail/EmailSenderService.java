@@ -28,7 +28,7 @@ public class EmailSenderService {
         message.setSubject(subject);
 
         mailSender.send(message);
-        System.out.println("Mail Send...");
+        System.out.println("Mail Sent...");
     }
 
     public void sendEmailWithAttachment(String toEmail,
